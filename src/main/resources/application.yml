@@ -1,0 +1,19 @@
+spring:
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key:  sk-a5316e22df264a10aa431e3a2428ec5e
+      chat:
+        options:
+          model: qwen-max-latest
+      embedding:
+        options:
+          model: text-embedding-v1
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
