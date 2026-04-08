@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dishs?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/dishes?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -22,6 +22,11 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+
+# RAG：本地菜品语料（每行一条，格式见 DishRagService）。优先读该路径；不存在则尝试 classpath:dish_corpus.txt
+app:
+  rag:
+    dish-corpus-path: dish_corpus.txt
 logging:
   level:
     org:
