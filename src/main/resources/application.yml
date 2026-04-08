@@ -11,7 +11,7 @@ spring:
       api-key:  sk-a5316e22df264a10aa431e3a2428ec5e
       chat:
         options:
-          model: qwen-max-latest
+          model: qwen-max
       embedding:
         options:
           model: text-embedding-v1

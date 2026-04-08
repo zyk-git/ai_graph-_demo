@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Python (uv / scripts) ###
+.venv/
+__pycache__/
+*.pyc
+chroma_dish_db/
+outputs/
+.env
+.env.local
