@@ -1,0 +1,4 @@
+# 菜品 RAG 语料：每行一条，与 DishRagService / 导出测试生成的格式一致。
+# 可将导出结果 dish_corpus.txt 复制到项目根目录，或覆盖本文件后重启应用。
+# 示例（取消下行注释即可参与检索）：
+# "id":1,"name":"麻婆豆腐","category":"热菜","cuisine":"川","taste":"麻辣","calories":320,"allergen":"无","main_ingredient":"嫩豆腐","custom_options":"免辣、少油","seasonal":"全年"
