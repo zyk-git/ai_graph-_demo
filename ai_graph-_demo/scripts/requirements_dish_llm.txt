@@ -1,3 +1,0 @@
-# pip install -r scripts/requirements_dish_llm.txt
-openai>=1.40.0
-chromadb>=0.5.0
